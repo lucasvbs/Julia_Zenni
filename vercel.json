@@ -1,7 +1,7 @@
 {
   "framework": "vite",
-  "installCommand": "pnpm install --no-frozen-lockfile --prod=false --registry=https://registry.npmjs.org/",
-  "buildCommand": "pnpm run build",
+  "installCommand": "npm ci --include=dev --ignore-scripts --registry=https://registry.npmjs.org/",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "rewrites": [
     {
